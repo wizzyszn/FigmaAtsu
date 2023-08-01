@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-heading{
+  @apply bg-[#091734] h-[800px] w-[100%];
+  background-image: url('./images/background.png') ,url('./images/foreground1.png') , url('./images/Vector1.png');
+  background-repeat: no-repeat;
+  background-position: 50% 1% , 90% 10%, center 105%;
+  background-size: 70%, 40%, 100%;
+
+  
+  
+
+}
+@media screen and (max-width : 640px) {
+  .hero-heading{
+    background-size: 300px, 190px, 300%;
+    background-position: 50% 0% , 100% 3%, center bottom;
+    height: 700px;
+
+
+  }
+}
+
