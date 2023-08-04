@@ -3,22 +3,46 @@
 @tailwind utilities;
 
 .hero-heading{
-  @apply bg-[#091734] h-[800px] w-[100%];
+  @apply bg-[#091734] h-[1200px] w-[100%];
   background-image: url('./images/background.png') ,url('./images/foreground1.png') , url('./images/Vector1.png');
   background-repeat: no-repeat;
   background-position: 50% 1% , 90% 10%, center 105%;
   background-size: 70%, 40%, 100%;
-
-  
   
 
 }
+
+.stroked-text{
+  color: #363d49;  
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: bolder;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+}
+
+
+.features{
+  @apply h-[700px]  w-[70%] m-auto grid grid-cols-2;
+  background-image: url('./images/Image3.png');
+  background-repeat: no-repeat;
+}
+
+
+/*media Queries*/
 @media screen and (max-width : 640px) {
   .hero-heading{
-    background-size: 300px, 190px, 300%;
-    background-position: 50% 0% , 100% 3%, center bottom;
-    height: 700px;
+    background-size: 300px, 190px, 400%;
+    background-position: 50% 0% , 100% 3%, center 200px;
+    height: 760px; 
 
+
+  }
+  .stroked-text{
+    
+    font-size: 42px;
 
   }
 }

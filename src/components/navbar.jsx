@@ -5,7 +5,7 @@ function Navabr() {
      <div className=" bg-[#091734]">        
         <div className="flex justify-around items-center  sm:mr-[10%] sm:ml-[10%] pt-8 max-[640px]:justify-between max-[640px]:pt-4">
             <div id="logo" className="max-[640px]:w-16 max-[640px]:ml-8">
-            <img className="w-16" src={myImages[2]} alt="logo" />
+            <img className="w-17" src={myImages[2]} alt="logo" />
             </div>
             <div id="links" className="flex flex-row md:gap-6 sm:gap-1 max-[640px]:hidden">
             <Link> Home</Link>
